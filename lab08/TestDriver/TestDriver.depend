@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647878335 source:c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab08\prj\testdriver\main.cpp
+	"ModulesPoliakh.h"
+	<iostream>
+	<cmath>
+
