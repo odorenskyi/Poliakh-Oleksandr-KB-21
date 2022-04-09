@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1649356905 source:c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab09\prj\poliakh_task\main.cpp
+	<iostream>
+	"ModulesPoliakh.h"
+	<locale.h>
+
+1649182526 c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab09\prj\modulespoliakh\modulespoliakh.h
+
