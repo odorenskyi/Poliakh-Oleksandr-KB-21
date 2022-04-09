@@ -6,50 +6,50 @@ using namespace std;
 
 void calculation()
 {
-    cout << "Функція s_calculation запустилася" << endl;
+    cout << "Function s_calculation started" << endl;
 
     double x,y,z;
-    cout << endl << "Введiть значення х:";
+    cout << endl << "Enter a value x: ";
     cin >> x;
-    cout << "Введiть значення y:";
+    cout << "Enter a value y: ";
     cin >> y;
-    cout << "Введiть значення z:";
+    cout << "Enter a value z: ";
     cin >> z;
     cout << s_calculation(x,y,z) << endl;
-    cout << "Функція s_calculation завершила роботу" << endl;
+    cout << "Function s_calculation completed the work" << endl;
 }
 void waveHeight()
 {
-    cout << "Функція waveHeight запустилась" << endl;
+    cout << "Function waveHeight started" << endl;
     double wHeight;
-    cout << "Введіть значення шкали вітру:" << endl;
+    cout << "Enter the wind scale value:" << endl;
     cin >> wHeight;
-    cout << "Бал хвилювання моря: " << waveHeight(wHeight) << endl;
-    cout << "Функція waveHeight завершила роботу" << endl;
+    cout << "Ball of sea excitement: " << waveHeight(wHeight) << endl;
+    cout << "Function waveHeight completed the work" << endl;
 }
 void temperature_celsia()
 {
-     cout << "Функція temperature_celsia запустилась" << endl;
+     cout << "Funcition temperature_celsia started" << endl;
      float temperature = 0;
-     cout << "Введіть значення за шкалою Фаренгейта: " << endl;
+     cout << "Enter the value on the Fahrenheit scale: " << endl;
      cin >> temperature;
-     cout << "Результат за шкалою Цельсія: " << temperature_celsia(temperature) << endl;
-     cout << "Функція temperature_celsia завершила роботу" << endl;
+     cout << "Celsius result: " << temperature_celsia(temperature) << endl;
+     cout << "Function temperature_celsia completed the work" << endl;
 }
 void bits_number()
 {
-    cout << "Функція bits_number запустилась" << endl;
+    cout << "Function bits_number started" << endl;
     int number;
-    cout << "Введіть значення від 0 до 65535: " << endl;
+    cout << "Enter a value from 0 to 65535: " << endl;
     cin >> number;
     while(number < 0 || number > 65535)
     {
-        cout << "Недопустиме значення,спробуйте спочатку: ";
+        cout << "Invalid value, please try first: ";
         cin >> number;
 
     }
-    cout << "Результат:" << bits_number(number) << endl;
-    cout << "Функція bits_number завершила роботу" << endl;
+    cout << "Result:" << bits_number(number) << endl;
+    cout << "Function bits_number completed the work" << endl;
 }
 void menu()
 {
@@ -64,11 +64,10 @@ void menu()
 }
 int main()
 {
-    setlocale(LC_ALL,"UKR");
     char symbol;
     while(true){
         menu();
-        cout << "Введіть символ: ";
+        cout << "Enter a character: ";
         cin >> symbol;
         if(symbol == 'j'){
             calculation();
@@ -84,6 +83,9 @@ int main()
         }
         if(symbol == 'A' || symbol == 'v' || symbol == 'V')
             break;
+        else{
+            cout << "\a";
+        }
         system("pause");
         system("cls");
     }
