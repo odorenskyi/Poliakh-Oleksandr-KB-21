@@ -9,7 +9,7 @@
 using namespace std;
 
 string authorCopyright(){
-    return "© ѕол€х ќлександр";
+    return "© Polyah Oleksandr";
 }
 
 bool Expression(double a, double b){
@@ -18,12 +18,12 @@ bool Expression(double a, double b){
 
 float DecHexNumber(int x,int y,int z){
     double S;
-    cout << endl << "'X' в дес€тковiй = " << dec << x
-     << endl << "'X' в шiстнадц€тковiй = " << hex << x << endl;
-    cout <<"'Y' в дес€тковiй = " << dec << y
-     << endl << "'Y' в шiстнадц€тковiй = " << hex << y << endl;
-    cout << "'Z' в дес€тковiй = " << dec << z
-     << endl << "'Z' в шiстнадц€тковiй = " << hex << z << endl;
+    cout << endl << "'X' in decimal = " << dec << x
+     << endl << "'X' in the hexadecimal = " << hex << x << endl;
+    cout <<"'Y' in decimal = " << dec << y
+     << endl << "'Y' in the hexadecimal = " << hex << y << endl;
+    cout << "'Z' in decimal = " << dec << z
+     << endl << "'Z' in the hexadecimal = " << hex << z << endl;
     S = s_calculation(x,y,z);
     return S;
     }
@@ -32,15 +32,15 @@ float DecHexNumber(int x,int y,int z){
     setlocale(LC_ALL,"UKR");
     double x,y,z,a,b;
     cout << authorCopyright();
-    cout << endl << "¬ведiть значенн€ х:";
+    cout << endl << "Enter a value x:";
     cin >> x;
-    cout << "¬ведiть значенн€ y:";
+    cout << "Enter a value y:";
     cin >> y;
-    cout << "¬ведiть значенн€ z:";
+    cout << "Enter a value z:";
     cin >> z;
-    cout << "¬ведiть значенн€ a:";
+    cout << "Enter a value a: ";
     cin >> a;
-    cout << "¬ведiть значенн€ b:";
+    cout << " Enter a value b: ";
     cin >> b;
     cout << Expression(a,b);
     cout << DecHexNumber(x,y,z) << endl;
