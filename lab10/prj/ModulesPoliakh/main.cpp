@@ -206,7 +206,7 @@ void Timestamp(){
 void calculation(){
     ofstream outputFile;
     outputFile.open("D:\\output.txt", ios::app);
-    outputFile << "Результат виконання функції s_calculation: " << s_calculation(9,8,7) << endl;
+    outputFile << "Результат виконання функції s_calculation: " << s_calculation << endl;
     outputFile.close();
 
 }
