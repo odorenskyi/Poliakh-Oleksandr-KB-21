@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1647721424 source:c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab08\prj\modulespoliakh\main.cpp
+	<math.h>
+	"ModulesPoliakh.h"
+
+1647721056 c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab08\prj\modulespoliakh\modulespoliakh.h
+
+1649186116 source:c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab09\prj\modulespoliakh\main.cpp
+	<cmath>
+	<clocale>
+	<string>
+	"ModulesPoliakh.h"
+	<iostream>
+	<bitset>
+
+1649182526 c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab09\prj\modulespoliakh\modulespoliakh.h
+
+1654371267 source:c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab10\modulespoliakh\main.cpp
+	<cmath>
+	<clocale>
+	<cstring>
+	<string>
+	<iostream>
+	<bitset>
+	<fstream>
+	<ctime>
+	<stdio.h>
+
+1653253326 c:\users\user\desktop\bmtp_lab_polyah\poliakh-oleksandr-kb-21\lab10\modulespoliakh\modulespoliakh.h
+	<cstring>
+
